@@ -1,0 +1,18 @@
+{
+    "loggedIn": "شما با موفقیت وارد شدید",
+    "register": "شما ثبت شدید",
+    "username": "نام کاربری",
+    "unauthorized": "کاربر غیرمجاز",
+    "unauthenticated": "لطفا وارد حساب کاربری خود شوید",
+    "username.min": "نام کاربری نباید کمتر از ۳ حرف باشد",
+    "password": "رمز عبور",
+    "email": "ایمیل",
+    "firstName": "نام کوچک",
+    "firstN": "Hello {{name}}!",
+    "max": "{{name}} نباید بیشتر از {{number}} رقم باشد",
+    "min": "{{name}} نباید کمتر از {{number}} رقم باشد",
+    "required": "{{name}} الزامی است",
+    "notFound": "{{name}} وجود ندارد",
+    "found": "{{name}} وجود دارد",
+    "isExists": "{{name}} از قبل وجود دارد"
+}

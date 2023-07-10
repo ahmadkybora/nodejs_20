@@ -1,0 +1,17 @@
+{
+    "loggedIn": "you are logged in",
+    "register": "you are registred {{name}}",
+    "username": "username",
+    "unauthorized": "Unauthorized access",
+    "unauthenticated": "Please login to your account",
+    "password": "password",
+    "email": "email",
+    "firstName": "firstName",
+    "firstN": "Hello {{name}}!",
+    "max": "{{name}} must not be more than {{number}} letters",
+    "min": "{{name}} must not be less than {{number}} letters",
+    "required": "{{name}} is required",
+    "notFound": "{{name}} is not found",
+    "found": "{{name}} is found",
+    "isExists": "{{name}} is already exists"
+}
