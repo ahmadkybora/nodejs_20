@@ -1,0 +1,35 @@
+<%- include("./layouts/header.ejs") -%>
+<%- include("../errors/validationErrors.ejs") %>
+<div class="vh-100 d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="card bg-white">
+            <div class="card-body p-5">
+              <form action="login" class="mb-3 mt-md-4" method="post">
+                <h2 class="fw-bold mb-2">Login</h2>
+                <div class="mb-3">
+                  <label for="username" class="form-label ">Email address</label>
+                  <input type="text" name="username" class="form-control" id="username" placeholder="example">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label ">Password</label>
+                  <input type="password" name="password" class="form-control" id="password" placeholder="*******">
+                </div>
+                <p class="small"><a class="text-primary" href="forget-password.html">Forgot password?</a></p>
+                <div class="d-grid">
+                  <button class="btn btn-outline-dark" type="submit">Login</button>
+                </div>
+              </form>
+              <div>
+                <p class="mb-0  text-center">Don't have an account? <a href="signup.html" class="text-primary fw-bold">Sign
+                    Up</a></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<%- include("./layouts/footer.ejs") -%>

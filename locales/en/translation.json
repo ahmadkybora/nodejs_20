@@ -1,17 +1,16 @@
 {
-    "loggedIn": "you are logged in",
-    "register": "you are registred {{name}}",
-    "username": "username",
-    "unauthorized": "Unauthorized access",
-    "unauthenticated": "Please login to your account",
-    "password": "password",
     "email": "email",
     "firstName": "firstName",
-    "firstN": "Hello {{name}}!",
+    "found": "{{name}} is found",
+    "isExists": "{{name}} is already exists",
+    "loggedIn": "you are logged in",
     "max": "{{name}} must not be more than {{number}} letters",
     "min": "{{name}} must not be less than {{number}} letters",
-    "required": "{{name}} is required",
     "notFound": "{{name}} is not found",
-    "found": "{{name}} is found",
-    "isExists": "{{name}} is already exists"
+    "password": "password",
+    "register": "you are registred {{name}}",
+    "required": "{{name}} is required",
+    "username": "username",
+    "unauthorized": "Unauthorized access",
+    "unauthenticated": "Please login to your account"
 }

@@ -1,6 +1,6 @@
 require("module-alias/register");
 require("dotenv").config();
 require("@middlewares");
-require("./bodyParser");
+require("./tools");
 require("@locales/config");
 require("@routes");

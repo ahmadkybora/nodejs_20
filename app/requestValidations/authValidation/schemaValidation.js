@@ -10,7 +10,7 @@ const loginSchemaValidation = async (req, res, next) => {
         }),
     });
 
-    await validateRequest(loginSchema)(req, res, next);
+    await validateRequest(req, res, next, loginSchema);
 }    
 
 const registerSchemaValidation = async (req, res, next) => {
@@ -33,7 +33,7 @@ const registerSchemaValidation = async (req, res, next) => {
         }),
     });
 
-    await validateRequest(registerSchema)(req, res, next);
+    await validateRequest(req, res, next, registerSchema);
 };
 
 module.exports = {
